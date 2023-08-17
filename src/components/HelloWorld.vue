@@ -1,46 +1,72 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+  <div>
+    <header class="relative" >
+      <div class="container mx-auto flex justify-between items-center py-9 px-4">
+        <div class="flex items-center">
+          <img src='../assets/logo.jpg'  class="h-10" />
+          <div class="ml-2">
+            <p class="text-black text-xl font-bold">DeceptiConf</p>
+          </div>
+        </div>
+        <div class="flex items-center">
+          <p class="text-blue-700 text-sm mr-4 md:mr-0 font-semibold">04-06 of April, 2022 , Los Angeles, CA</p>
+      </div>
+          <button class="bg-blue-700 hover:bg-blue-600 text-white py-2 px-6 square-full font-bold">Get Your Tickets</button>
+      </div>
+    </header>
+    <section class="py-16 text-center">
+      <div class="container mx-auto">
+        <div class="blur-background"></div>
+        <div class="text-white text-lg mb-8">
+          <div class="mx-auto">
+            <h2 class="mt-4 font-bold text-7xl text-blue-700 max-w-prose mx-auto">
+              A design conference 
+            </h2>
+            <h3 class="mt-4 font-bold text-7xl text-blue-700 max-w-prose mx-auto">
+               for the dark side</h3>
+            <p class="mt-2 font-normal text-2xl text-blue-900 text-sm max-w-prose mx-auto">
+              The next generation of web users are tech-savvy and suspicious.
+              They know how to use dev tools, they can detect a phishing scam from a mile away,
+              and they certainly aren't accepting any checks from Western Union.
+            </p>
+            <p class="mt-2 font-normal text-2xl text-blue-900 text-sm max-w-prose mx-auto">
+              At DeceptiConf you'll learn about the latest dark patterns being developed
+              to trick even the smartest visitors, and you'll learn how to deploy them
+              without ever being detected.
+            </p>
+          </div>
+        </div>
+        <br>
+        <div class="grid grid-cols-4 gap-4 text-center">
+          <div>
+            <p class="text-black-800 text-lg ">Speakers</p>
+            <p class="mt-2 text-black-800 text-xl font-bold">18</p>
+          </div>
+          <div>
+            <p class="text-black-800 text-lg">People Attending</p>
+            <p class="mt-2 text-black-800 text-xl font-bold">2,091</p>
+          </div>
+          <div>
+            <p class="text-black-800 text-lg">Venue</p>
+            <p class="mt-2 text-black-800 text-xl font-bold">Staples Center</p>
+          </div>
+          <div>
+            <p class="text-black-800 text-lg">Location</p>
+            <p class="mt-2 text-black-800 text-xl font-bold">Los Angeles</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  }
+  name: 'HelloWorld'
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style>
 h3 {
   margin: 40px 0 0;
 }
@@ -56,3 +82,4 @@ a {
   color: #42b983;
 }
 </style>
+
