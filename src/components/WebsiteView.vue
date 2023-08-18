@@ -9,16 +9,16 @@
       <br><br><br>
       <div class="grid grid-cols-1 gap-4 px-8">
         <div class="mt-4">
-          <p class="text-blue-800 text-lg ">--> Opening Day</p>
-          <p class="mt-2 text-blue-800 text-xl font-bold">April 4</p>
+          <p class="text-blue-800 text-lg ">* Opening Day</p>
+          <p class="mt-2 text-blue-800 text-xl font-bold">| April 4</p>
         </div>
         <div class="mt-4">
-          <p class="text-blue-800 text-lg">--> Speakers & Workshops</p>
-          <p class="mt-2 text-blue-800 text-xl font-bold">April 5</p>
+          <p class="text-blue-800 text-lg">* Speakers & Workshops</p>
+          <p class="mt-2 text-blue-800 text-xl font-bold">| April 5</p>
         </div>
         <div class="mt-4">
-          <p class="text-blue-800 text-lg">--> Interviews</p>
-          <p class="mt-2 text-blue-800 text-xl font-bold">April 6</p>
+          <p class="text-blue-800 text-lg">* Interviews</p>
+          <p class="mt-2 text-blue-800 text-xl font-bold">| April 6</p>
         </div>
       </div>
 
@@ -30,6 +30,8 @@
           <h3 class="text-lg font-semibold text-gray-900 mb-2">{{ speaker.name }}</h3>
           <p class="text-gray-600">{{ speaker.title }}</p>
         </div>
+        
+        
       </div>
     </div>
   </section>

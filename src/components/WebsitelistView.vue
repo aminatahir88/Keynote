@@ -35,6 +35,78 @@
       </div>
     </section>
     <br><br>
+    <div class="grid gap-20 md:grid-cols-2 lg:grid-cols-3">
+  <div
+    class="block square-lg bg-white text-center shadow-lg dark:bg-neutral-500 md:col-span-1 lg:col-span-1">
+    <br><br><br><b>Steven McHail</b><br>
+Not so one-time payments<br>
+9:00AM - 10:00AM PST<br>
+______________________<br>
+<b>Jaquelin Isch</b><br>
+The finer print<br>
+10:00AM - 11:00AM PST<br>
+______________________<br>
+<b>Dianne Guilianelli</b><br>
+Post-purchase blackmail<br>
+11:00AM - 12:00PM PST<br>
+______________________<br>
+<b>Lunch</b><br>
+12:00PM - 1:00PM PST<br>
+______________________<br>
+<b>Ronni Cantadore</b><br>
+Buy or die<br>
+1:00PM - 2:00PM PST<br>
+______________________<br><br><br><br>
+  </div>
+  
+  <div
+    class="block square-lg bg-white text-center shadow-lg dark:bg-neutral-700 md:col-span-1 lg:col-span-1">
+    <br><br><br><b>Damaris Kimura</b><br>
+   The invisible card reader<br>
+   9:00AM - 10:00AM PST<br>
+   ______________________<br>
+<b>Ibrahim Frasch</b>  <br> 
+Stealing fingerprints<br>
+10:00AM - 11:00AM PST<br>
+______________________<br>
+<b>Cathlene Burrage</b><br>
+Voting machines<br>
+11:00AM - 12:00PM PST<br>
+______________________<br>
+<b>Lunch</b><br>
+12:00PM - 1:00PM PST<br>
+______________________<br>
+<b>Rinaldo Beynon</b><br>
+Blackhat SEO that works<br>
+1:00PM - 2:00PM PST<br>
+______________________<br><br><br><br>
+
+
+  </div>
+  <div
+    class="block square-lg bg-white text-center shadow-lg dark:bg-neutral-700 md:col-span-1 lg:col-span-1">
+    <br><br><br><b>Andrew Greene</b><br>
+Neuralink dark patterns<br>
+9:00AM - 10:00AM PST<br>
+______________________<br>
+<b>Heather Terry</b><br>
+DALL-E for passports<br>
+10:00AM - 11:00AM PST<br>
+______________________<br>
+<b>Piers Wilkins</b><br>
+Quantum password cracking<br>
+11:00AM - 12:00PM PST<br>
+______________________<br>
+<b>Lunch</b><br>
+12:00PM - 1:00PM PST<br>
+______________________<br>
+<b>Gordon Sanderson</b><br>
+SkyNet is coming<br>
+1:00PM - 2:00PM PST<br>
+______________________<br><br><br><br>
+
+  </div>
+</div>
     <div class="mx-auto text-center bg-white">
       <h2 class="mt-8 mb-4 font-semibold text-4xl text-blue-800 max-w-prose">
         Current sponsorships for our workshops and speakers.
@@ -66,6 +138,47 @@
         </div>
       </div>
     </div>
+    <br><br><br><br><br><br>
+    <div class="container bg-blue-400 bg-blur-background rounded-lg px-10 py-10">
+    <div class="bg-blue-200 rounded-lg shadow-md p-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+                <h2 class="text-3xl font-semibold text-blue-900 text-lg text-blue mb-4">
+                    Stay up to date
+                </h2>
+                <p class="text-blue-800 text-lg">
+                    Get updates on all our events and be the first to be 
+                </p>
+                <p class="text-blue-800 text-lg">
+                  notified when tickets go on sale.
+                </p>
+            </div>
+            <div>
+                <h2 class="text-3xl font-semibold text-blue text-blue-900 text-lg mb-2">
+                                  Sign up to our newsletter 
+                </h2>
+                <div class="hero bg-gredient-dark h-400px flex flex-col px-2">
+                    <div class="search-box mx-auto my-auto w-full sm:w-full md:w-full lg:w-3/4 xl:w-3/4">
+                        <form class="flex flex-row">
+                            <span
+                                class="flex items-center bg-gray-100 rounded rounded-r-none border-0 px-3 font-bold text-grey-100"></span>
+                            <input
+                                class="h-16 bg-gray-100 text-grey-darker py-2 font-normal text-grey-darkest border border-gray-100 font-bold w-full py-1 px-2 outline-none text-lg text-gray-600 rounded" 
+                                type="text" placeholder="Email Address">
+                            <span
+                                class="flex items-center bg-gray-100 rounded rounded-l-none border-0 px-3 font-bold text-grey-100">
+                                <button
+                                    class="bg-blue-500 hover:bg-blue-600 text-lg text-white font-bold py-3 px-6 rounded-full">Signin</button>
+                            </span>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
     <footer class="relative bg-white">
       <div class="container mx-auto flex justify-between items-center py-9 px-4">
         <div class="flex items-center">
@@ -84,7 +197,7 @@
 
 <script>
 export default {
-  name: 'FooterView',
+  name: 'WebsitelistView',
 };
 </script>
 
